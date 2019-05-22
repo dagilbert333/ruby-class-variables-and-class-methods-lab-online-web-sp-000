@@ -8,7 +8,7 @@ class Song
     @name = name 
     @artist = artist
     @genre = genre
-    @@count += 1 #increment class upon initialization
+    @@count += 1 #increment @@count class upon initialization
     @@genres << genre #add genre upon initialization
     @@artists << artist #add artist upon initialization 
   end
